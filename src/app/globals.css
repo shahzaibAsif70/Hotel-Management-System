@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.font-miller {
+  font-family: 'MillerDisplayRoman', Georgia, serif;
+}
+
+.font-gtamerica {
+  font-family: 'GT-America-Standard-Light', Helvetica, Arial, sans-serif;
+}
+
+.heading-style {
+  font-family: 'MillerDisplayRoman', Georgia, serif;
+  font-size: 48px;
+  line-height: 1.17;
+  letter-spacing: -0.0125em;
+  color: #073937;
+}
+
+.paragraph-style {
+  font-family: 'GT-America-Standard-Light', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: -0.002em;
+  color: #073937;
+}

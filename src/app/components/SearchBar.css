@@ -1,0 +1,47 @@
+
+.rdrDayStart .rdrDayNumber span,
+.rdrDayEnd .rdrDayNumber span {
+  background-color: #000 !important;
+  border-radius: 50% !important;
+  width: 24px !important;
+  height: 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.rdrDayStart.rdrDayInRange .rdrDayNumber span,
+.rdrDayEnd.rdrDayInRange .rdrDayNumber span {
+  background-color: #000 !important;
+}
+
+.rdrDayNumber span {
+  font-size: 14px !important;
+}
+
+.rdrMonthName {
+  font-weight: bold !important;
+  font-size: 16px !important;
+  color: #333 !important;
+}
+
+.rdrNextPrevButton {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.rdrNextPrevButton i {
+  border-color: transparent !important;
+  border-left: 6px solid #333 !important;
+}
+
+.rdrNextPrevButton.rdrPprevButton i {
+  border-left: none !important;
+  border-right: 6px solid #333 !important;
+}
+
+
+.rdrWeekDay {
+  font-weight: bold !important;
+  color: #333 !important;
+}
